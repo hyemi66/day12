@@ -14,8 +14,7 @@ public class Quiz {
 				System.out.print("주민번호 입력(앞 6자리) : ");
 				num = sc.nextInt();
 				String s = num+"";
-				String[] s1 = s.split("");
-				if(s1.length==6) {
+				if(s.length()==6) {
 					num = num / 10000;
 					if(num>4 && num<24) {
 						System.out.println("가입불가");
